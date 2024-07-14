@@ -11,8 +11,8 @@ const Alunos = ({ slides }) => {
           </div>
           <div className="nome">
             <h3>{slide.nome}</h3>
-            <p><u>Formado em {slide.dataformacao}</u></p>
-            <p>Trabalha desde {slide.data} na {slide.empresa}</p>
+            <p><u>Formação concluida em {slide.dataformacao}</u></p>
+            <p>Local de trabalho: {slide.empresa} (desde {slide.data})</p>
 
           </div>
         </div>

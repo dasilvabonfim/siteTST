@@ -3,7 +3,7 @@ import foto1 from "../src/assets/foto1.jpeg";
 import foto2 from "../src/assets/foto2.jpg";
 import foto3 from "../src/assets/foto3.jpg";
 import foto4 from "../src/assets/foto4.jpg";
-import foto5 from "../src/assets/foto5.jpg";
+import foto7 from "../src/assets/foto7.jpg";
 import foto6 from "../src/assets/foto6.jpg";
 import { FaInstagram } from 'react-icons/fa';
 
@@ -29,7 +29,7 @@ const App = () => {
     {
       nome: "Lucineia Vedovoto",
       dataformacao: "2021",
-      foto: foto5,
+      foto: foto7,
       data: "2022",
       empresa: "Santa Casa",
     },
@@ -45,14 +45,14 @@ const App = () => {
     <>
       <div className="App">
         <div className="nav-bar">
-        <a target="_blank" href="https://www.instagram.com/tst__cm?igsh=MXFpM3AyYW1jbXNzNA=="><FaInstagram size={36} color="#E4405F" style={{ marginRight: '20px' }} /></a>
-          <h1>Técnico em segurança do trabalho</h1>
+        <a target="_blank" href="https://www.instagram.com/tst__cm?igsh=MXFpM3AyYW1jbXNzNA=="><FaInstagram size={36} color="#E4405F" style={{ marginRight: '20px', marginTop: '5px' }} /></a>
+          <h1>Curso de Técnico em Segurança do Trabalho</h1>
         </div>
         <div className="content">
           <h1>Seja bem vindo!</h1>
           <p>
-            O colégio estadual oferece gratuitamente o curso de técnico em
-            segurança do trabalho, uma profissão que as empresas sempre procuram
+            O Colégio Estadual oferece gratuitamente o curso de Técnico em
+            Segurança do Trabalho, uma profissão que as empresas sempre procuram
             profissionais qualificados, venha descobrir um pouco sobre a
             profissão.
           </p>
@@ -62,9 +62,9 @@ const App = () => {
         </div>
         <div className="info">
           <div className="texto1">
-            <h1>O que faz um técnico de segurança do trabalho?</h1>
+            <h1>O que faz um Técnico de Segurança do Trabalho?</h1>
             <p>
-              O técnico de segurança do trabalho desempenha um papel fundamental
+              O Técnico de Segurança do Trabalho desempenha um papel fundamental
               na promoção de ambientes de trabalho seguros e saudáveis. Suas
               responsabilidades incluem a identificação, avaliação e controle de
               riscos ambientais e ocupacionais nos locais de trabalho. Para
@@ -99,25 +99,23 @@ const App = () => {
         <div className="perguntas">
           <div className="pergunta">
             <h3>Qual a duração do curso?</h3>
-            <p>O curso é separado em 3 semestres, ou seja 1 ano e meio</p>
+            <p>O curso tem duração de 3 semestres, ou seja 1 ano e meio.</p>
           </div>
           <div className="pergunta">
             <h3>Qual a carga horária?</h3>
             <p>
-              A carga horária total é de 1200 horas além do estágio. Todas as
-              aulas são noturnas visando atender a todos os públicos
+              A carga horária total é de 1200 horas. Aula de segunda a sexta-feira presencial no período noturno, com objetivo de atender a comunidade escolar.
             </p>
           </div>
           <div className="pergunta">
             <h3>É preciso alguma formação para iniciar o curso?</h3>
             <p>
-              Não é necessário nenhuma formação para iniciar o curso, qualquer
-              pessoa acima de 18 anos poderá se inscrever para o curso
+              É necessário ter concluído o ensino médio e 18 anos ou mais para ingressar no curso.
             </p>
           </div>
           <div className="pergunta">
             <h3>
-              Qual a média salarial de um técnico em segurança do trabalho?
+              Qual a média salarial de um Técnico em Segurança do Trabalho?
             </h3>
             <p>
               A média salarial de um técnico em segurança do trabalho varia
@@ -126,12 +124,16 @@ const App = () => {
             </p>
           </div>
           <div className="pergunta">
+            <h3>Qual a modalidade do curso, é online?</h3>
+            <p>Não, durante o curso as aulas serão integralmente presencial, das 18:45 ate as 23h.</p>
+          </div>
+          <div className="pergunta">
             <h3>Como me inscrever?</h3>
             <p>
               Novas turmas são abertas todo semestre, fique atento no instagram
               para não perder o período de inscrição, você poderá fazer a
               inscrição diretamente na secretária do Colégio Estadual de Campo
-              Mourão ou pelo perfil TST CM do instagram
+              Mourão. Em caso de dúvida entre em contato pelo instagram.
             </p>
           </div>
         </div>

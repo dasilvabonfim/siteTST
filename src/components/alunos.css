@@ -8,17 +8,18 @@
   
   .exalunos > div {
     width: 400px;
-    height: 450px;
+    height: 475px;
     margin: 10px;
     border: 10px solid black;
     padding: 5px; 
     border-radius: 10px;
-    background-image: linear-gradient(to right, #B993D6, #8CA6DB);
+    background: linear-gradient(109.6deg, rgb(17, 151, 147) 11.2%, rgb(154, 214, 212) 55.4%, rgb(255, 233, 171) 100.2%);
+    
   }
   
 
 .foto img{
-    width: 125px;
+    width: 150px;
     height: 150px;
     border-radius: 50%;
     margin: 0 auto;
@@ -60,7 +61,7 @@
         align-items: center;
     }
     .exalunos > div{
-        width: 110%;
+        width: 115%;
         height: 600px;
         text-align: center;
     }
