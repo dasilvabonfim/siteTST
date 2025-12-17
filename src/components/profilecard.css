@@ -1,0 +1,99 @@
+.aluno-card {
+  position: relative;
+  
+
+  width: 400px;
+  height: 350px; 
+  max-width: 100%;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  
+
+  padding: 40px 40px 40px 40px; 
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+  
+  margin-top: 80px; 
+}
+
+
+.aluno-card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: #f97316;
+  box-shadow: 0 15px 40px rgba(249, 115, 22, 0.25);
+}
+
+.foto-container {
+  width: 180px; 
+  height: 180px;
+  margin-top: -120px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  padding: 5px;
+  background: linear-gradient(to bottom right, #f97316, #ea580c);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+.aluno-foto {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #1e293b; 
+  background-color: #1e293b;
+}
+
+.aluno-nome {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #cbd5e1;
+  font-size: 1.1rem; 
+  margin-bottom: 10px;
+}
+
+.info-row.highlight {
+  color: #f97316;
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+.info-row.small {
+  font-size: 0.95rem;
+  color: #94a3b8;
+}
+
+.icon {
+  font-size: 1.2rem; 
+}
+
+.divider {
+  width: 60%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 15px auto;
+}
+
+@media (max-width: 400px) {
+  .aluno-card {
+    width: 100%; 
+    max-width: 320px;
+  }
+}

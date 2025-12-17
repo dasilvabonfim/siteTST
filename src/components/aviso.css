@@ -1,0 +1,97 @@
+
+.aviso-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  margin-top: 175px; 
+  margin-bottom: -40px; 
+  position: relative;
+  z-index: 10; 
+}
+
+
+.electric-card {
+  position: relative;
+  background: #0f172a;
+  border-radius: 12px;
+  padding: 6px; 
+  width: 100%;
+  max-width: 900px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(249, 115, 22, 0.3); 
+}
+
+.electric-card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(
+    transparent, 
+    transparent, 
+    transparent, 
+    #f97316, 
+    #ef4444 
+  );
+  animation: rotate 3s linear infinite;
+  z-index: 0;
+}
+
+
+.electric-content {
+  position: relative;
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 10px; 
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+}
+
+.gradient-text {
+  font-size: 1.8rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #f97316, #fbbf24, #f97316);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shine 3s linear infinite;
+  display: block;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.electric-content p {
+  color: #cbd5e1;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.clique-aqui {
+  color: #fbbf24;
+  font-weight: bold;
+}
+
+
+@keyframes rotate {
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes shine {
+  to { background-position: 200% center; }
+}
+
+
+@media (max-width: 600px) {
+  .gradient-text {
+    font-size: 1.3rem;
+  }
+  .aviso-wrapper {
+    margin-top: 90px;
+  }
+}
